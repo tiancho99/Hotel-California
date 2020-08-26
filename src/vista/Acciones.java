@@ -17,9 +17,9 @@ public interface Acciones {
 	String CANCELAR_REGISTRO = "cancelarRegistro";
 
 //ACCIONES INICIO SECION
-	String SECION_PERSONA = "secionPersona";
-	String SECION_RECEPCIONISTA = "secionRecepcionista";
-	String SECION_ADMIN = "secionAdmin";
+	String SECION_PERSONA = "sesionPersona";
+	String SECION_RECEPCIONISTA = "sesionRecepcionista";
+	String SECION_ADMIN = "sesionAdmin";
 	String CERRAR_CESION = "cerrarSecion";
 
 //CRUD PRODUCTO

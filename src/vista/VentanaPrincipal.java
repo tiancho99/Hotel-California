@@ -57,21 +57,21 @@ public class VentanaPrincipal extends JFrame implements Acciones{
 	
 	@Override
 	public void iniciar(String seccion) {
-		if(seccion.equals("secionRecepcionista")) {
+		if(seccion.equals("sesionRecepcionista")) {
 			setSize(800, 410);
 			ventanaRecepcionista.setVisible(true);
 			add(ventanaRecepcionista);
 			repaint();
 
 		}
-		if(seccion.equals("secionPersona")) {
+		if(seccion.equals("sesionPersona")) {
 			setSize(500,500);
 			ventanaCliente.setVisible(true);
 			add(ventanaCliente);
 			repaint();
 
 		}
-		if(seccion.equals("secionAdmin")) {
+		if(seccion.equals("sesionAdmin")) {
 			ventanaAdmin.setVisible(true);
 			add(ventanaAdmin);
 			setSize(700, 410);
@@ -185,7 +185,7 @@ public class VentanaPrincipal extends JFrame implements Acciones{
 		if (seccion.equals("asignarHabitacion") || seccion.equals("reserva") || seccion.equals("registrarCliente") || seccion.equals("modificarCliente")) {
 			datos = ventanaRecepcionista.leer(seccion);
 		}
-		if (seccion.equals("secionPersona") || seccion.equals("comprar")) {
+		if (seccion.equals("sesionPersona") || seccion.equals("comprar")) {
 			datos = ventanaCliente.leer(seccion);
 		}
 		
@@ -194,14 +194,14 @@ public class VentanaPrincipal extends JFrame implements Acciones{
 
 	@Override
 	public void dibujar(String[] datos, String seccion) {
-		if (seccion.equals("secionAdmin")) {
+		if (seccion.equals("sesionAdmin")) {
 			ventanaAdmin.dibujar(datos, seccion);
 
 		}
-		if (seccion.equals("secionRecepcionista")) {
+		if (seccion.equals("sesionRecepcionista")) {
 			ventanaRecepcionista.dibujar(datos, seccion);
 		}
-		if (seccion.equals("secionPersona")) {
+		if (seccion.equals("sesionPersona")) {
 			
 			ventanaCliente.dibujar(datos, seccion);
 		}

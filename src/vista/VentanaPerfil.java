@@ -40,7 +40,7 @@ public class VentanaPerfil extends JPanel {
 		apellido = new JLabel("");
 		documento = new JLabel("");
 		
-		btnCerrarCesion = new JButton("cerrar secion");
+		btnCerrarCesion = new JButton("cerrar sesion");
 		btnCerrarCesion.setActionCommand(Acciones.CERRAR_CESION);
 
 	}

@@ -82,7 +82,7 @@ public class VentanaCliente extends JPanel {
 
 	public String[] leer(String seccion) {
 		String[] datos = null;
-		if (seccion.equals("secionPersona")) {
+		if (seccion.equals("sesionPersona")) {
 			datos = new String[1];
 			datos[0] = perfilCliente.getDocumento().getText();
 		}
@@ -96,7 +96,7 @@ public class VentanaCliente extends JPanel {
 	}
 
 	public void dibujar(String[] datos, String seccion) {
-		if (seccion.equals("secionPersona")) {
+		if (seccion.equals("sesionPersona")) {
 			perfilCliente.getNombre().setText(datos[1]);
 			perfilCliente.getApellido().setText(datos[2]);
 			perfilCliente.getDocumento().setText(datos[0]);
