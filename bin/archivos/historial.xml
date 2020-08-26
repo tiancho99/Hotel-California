@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GestionHistorial>
+    <historiales>
+        <Historial>
+            <numeroHabitacion>102</numeroHabitacion>
+            <numeroPersonas>1</numeroPersonas>
+            <precioGrupo>300000.0</precioGrupo>
+            <precioHabitacion>300000.0</precioHabitacion>
+            <recepcionista>loquillo</recepcionista>
+        </Historial>
+        <Historial>
+            <numeroHabitacion>102</numeroHabitacion>
+            <numeroPersonas>1</numeroPersonas>
+            <precioGrupo>300000.0</precioGrupo>
+            <precioHabitacion>300000.0</precioHabitacion>
+            <recepcionista>loquillo</recepcionista>
+        </Historial>
+        <Historial>
+            <numeroHabitacion>101</numeroHabitacion>
+            <numeroPersonas>2</numeroPersonas>
+            <precioGrupo>400000.0</precioGrupo>
+            <precioHabitacion>200000.0</precioHabitacion>
+            <recepcionista>mateo</recepcionista>
+        </Historial>
+        <Historial>
+            <numeroHabitacion>202</numeroHabitacion>
+            <numeroPersonas>1</numeroPersonas>
+            <precioGrupo>250000.0</precioGrupo>
+            <precioHabitacion>250000.0</precioHabitacion>
+            <recepcionista>jorge</recepcionista>
+        </Historial>
+        <Historial>
+            <numeroHabitacion>200</numeroHabitacion>
+            <numeroPersonas>1</numeroPersonas>
+            <precioGrupo>1000000.0</precioGrupo>
+            <precioHabitacion>1000000.0</precioHabitacion>
+            <recepcionista>mateo</recepcionista>
+        </Historial>
+    </historiales>
+</GestionHistorial>

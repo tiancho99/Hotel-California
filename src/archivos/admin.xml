@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GestionAdmin>
+    <admins>
+        <admin>
+            <apellido>perez</apellido>
+            <contraseña>3</contraseña>
+            <documento>3</documento>
+            <nombre>juan</nombre>
+        </admin>
+    </admins>
+</GestionAdmin>

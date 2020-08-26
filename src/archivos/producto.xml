@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GestionProducto>
+    <productos>
+        <Producto>
+            <codigo>1357</codigo>
+            <nombre>chocoramo</nombre>
+            <precio>1500.0</precio>
+            <stock>20</stock>
+        </Producto>
+        <Producto>
+            <codigo>3453</codigo>
+            <nombre>papas fritas</nombre>
+            <precio>2000.0</precio>
+            <stock>30</stock>
+        </Producto>
+        <Producto>
+            <codigo>5632</codigo>
+            <nombre>gaseosa</nombre>
+            <precio>1800.0</precio>
+            <stock>35</stock>
+        </Producto>
+        <Producto>
+            <codigo>45343</codigo>
+            <nombre>cerveza</nombre>
+            <precio>2000.0</precio>
+            <stock>30</stock>
+        </Producto>
+        <Producto>
+            <codigo>342345</codigo>
+            <nombre>sparkies</nombre>
+            <precio>200.0</precio>
+            <stock>100</stock>
+        </Producto>
+        <Producto>
+            <codigo>97878</codigo>
+            <nombre>agua embotellada</nombre>
+            <precio>2500.0</precio>
+            <stock>15</stock>
+        </Producto>
+        <Producto>
+            <codigo>123123</codigo>
+            <nombre>perro</nombre>
+            <precio>5000.0</precio>
+            <stock>10</stock>
+        </Producto>
+    </productos>
+</GestionProducto>
